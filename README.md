@@ -1,2 +1,7 @@
 # JOSPre-Release
-JOS Operating System Pre-release
+
+Development status: In development
+% finished: 0%
+
+Features added:
+None so far...
