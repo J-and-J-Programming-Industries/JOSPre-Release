@@ -2,7 +2,7 @@ print "Starting JOS..."
 Dim ver As String
 Dim cmd As String
 Dim prnt As String
-ver = "1.0"
+ver = "1.1"
 print "Current date: ";date
 print "use 'help' for commands."
 goto interpreter
