@@ -1,3 +1,4 @@
+cls
 print "Starting JOS..."
 Dim ver As String
 Dim cmd As String
@@ -67,3 +68,4 @@ goto crash2
 
 crash2:
 goto crash2
+		
