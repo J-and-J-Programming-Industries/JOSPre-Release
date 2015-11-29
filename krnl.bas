@@ -18,6 +18,7 @@ if cmd = "ver" then goto ver
 if cmd = "help" then goto help
 if cmd = "cls" then goto clean
 if cmd = "run" then goto exe
+if cmd = "crash" then goto crash
 goto interpreter
 
 clean:
@@ -59,8 +60,9 @@ goto interpreter
 
 crash:
 cls
-print "Execution has failed and the Kernel has crashed."
-print "Interpreter will now halt."
+print "[WARN]: Execution has failed and the Kernel has crashed."
+print "[WARN]: Interpreter will now halt."
+print "[INFO]: Kernel halted"
 goto crash2
 
 crash2:
