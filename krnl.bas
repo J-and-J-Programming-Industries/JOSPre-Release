@@ -2,7 +2,8 @@ print "Starting JOS..."
 Dim ver As String
 Dim cmd As String
 Dim prnt As String
-ver = "1.1"
+Dim fl As String
+ver = "1.2"
 print "Current date: ";date
 print "use 'help' for commands."
 goto interpreter
@@ -15,6 +16,12 @@ if cmd = "date" then goto dt
 if cmd = "time" then goto tm
 if cmd = "ver" then goto ver
 if cmd = "help" then goto help
+if cmd = "cls" then goto clean
+if cmd = "run" then goto exe
+goto interpreter
+
+clean:
+cls
 goto interpreter
 
 help:
@@ -24,6 +31,8 @@ print "date"
 print "time"
 print "ver"
 print "help"
+print "cls"
+print "run"
 goto interpreter
 
 prnt:
@@ -43,9 +52,14 @@ ver:
 print ;ver
 goto interpreter
 
+exe:
+input "File location?: ", fl
+run(fl)
+goto interpreter
+
 crash:
 cls
 print "Execution has failed and the Kernel has crashed."
-print "Computer will now halt."
+print "Interpreter will now halt."
 end
 goto crash
