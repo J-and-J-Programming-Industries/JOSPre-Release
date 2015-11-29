@@ -36,7 +36,7 @@ print "run"
 goto interpreter
 
 prnt:
-input "Print what?", prnt
+input "Print what? ", prnt
 print ;prnt
 goto interpreter
 
@@ -61,5 +61,7 @@ crash:
 cls
 print "Execution has failed and the Kernel has crashed."
 print "Interpreter will now halt."
-end
-goto crash
+goto crash2
+
+crash2:
+goto crash2
