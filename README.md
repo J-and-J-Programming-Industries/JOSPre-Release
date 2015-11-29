@@ -4,7 +4,10 @@ Development status: In development
 
 % finished: 0.1%
 
-Features added:
-Kernel added.
+Updates:
 
-JOS is an operating system that is being written in BASIC that is designed to be fast and efficient.
+1.0 Kernel added.
+
+1.1 Kernel rewritten in FreeBASIC
+
+JOS is an operating system that is being written in FreeBASIC that is designed to be fast and efficient.
