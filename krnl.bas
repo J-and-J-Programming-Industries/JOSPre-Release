@@ -1,18 +1,20 @@
 print "Starting JOS..."
-ver$ = "1.0"
-input "Date? [MM/DD/YYYY]:";date$
-print "Current date: ";date$
+Dim ver As String
+Dim cmd As String
+Dim prnt As String
+ver = "1.0"
+print "Current date: ";date
 print "use 'help' for commands."
 goto interpreter
 
 interpreter:
-input "Command: ";cmd$
-if cmd$ == "exit" then end
-if cmd$ == "print" then goto prnt
-if cmd$ == "date" then goto date
-if cmd$ == "time" then goto time
-if cmd$ == "ver" then goto ver
-if cmd$ == "help" then goto help
+input "Command: ", cmd
+if cmd = "exit" then end
+if cmd = "print" then goto prnt
+if cmd = "date" then goto dt
+if cmd = "time" then goto tm
+if cmd = "ver" then goto ver
+if cmd = "help" then goto help
 goto interpreter
 
 help:
@@ -25,22 +27,20 @@ print "help"
 goto interpreter
 
 prnt:
-input "Print what?";prnt$
-print ;prnt$
+input "Print what?", prnt
+print ;prnt
 goto interpreter
 
-date:
-print "Current set date: ";date$
-input "New date? [MM/DD/YYYY]:";date$
-print "Current set date: ";date$
+dt:
+print "Current date: ";date
 goto interpreter
 
-time:
-print "Time currently not implemented."
+tm:
+print ;time
 goto interpreter
 
 ver:
-print ;ver$
+print ;ver
 goto interpreter
 
 crash:
