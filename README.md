@@ -10,4 +10,6 @@ Updates:
 
 1.1 Kernel rewritten in FreeBASIC
 
+1.2 Added new Kernel commands
+
 JOS is an operating system that is being written in FreeBASIC that is designed to be fast and efficient.
