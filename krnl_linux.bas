@@ -126,7 +126,6 @@ input "Parameters?: ", par
 exec (fl,par)
 goto interpreter
 
-
 credits:
 Print "Joshua Herron for console, compiling, and packaging."
 print "Sam Kahn for help with GitHub repos and JOS website."
