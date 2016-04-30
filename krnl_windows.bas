@@ -6,7 +6,8 @@ Dim prnt As String
 Dim fl As String
 Dim chwd As String
 Dim direc As String
-ver = "1.3"
+Dim par As String
+ver = "1.4"
 print "Current date: ";date
 print "use 'help' for commands."
 goto interpreter
@@ -115,6 +116,12 @@ goto interpreter
 
 pwd:
 print CurDir
+goto interpreter
+
+execwp:
+input "Command without parameters?: ", fl
+input "Parameters?: ", par
+exec (fl,par)
 goto interpreter
 
 credits:
