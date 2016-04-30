@@ -23,8 +23,8 @@ if cmd = "cls" then goto clean
 if cmd = "run" then goto exe
 if cmd = "crash" then goto crash
 if cmd = "credits" then goto credits
-if cmd = "ls" then shell("dir")
-if cmd = "dir" then shell("dir")
+if cmd = "ls" then shell "dir"
+if cmd = "dir" then shell "dir"
 if cmd = "edit" then goto edit
 if cmd = "cd" then goto cwd
 if cmd = "del" then goto del
@@ -90,7 +90,7 @@ crash2:
 goto crash2
 
 edit:
-shell("C:\Windows\notepad.exe")
+shell "C:\Windows\notepad.exe"
 goto interpreter
 
 cwd:
