@@ -90,7 +90,7 @@ crash2:
 goto crash2
 
 edit:
-shell "C:/Windows/notepad.exe"
+shell !"C:\Windows\notepad.exe"
 goto interpreter
 
 cwd:
