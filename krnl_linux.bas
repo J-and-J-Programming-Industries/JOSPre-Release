@@ -122,5 +122,5 @@ Print "Joshua Herron for console, compiling, and packaging."
 print "Sam Kahn for help with GitHub repos and JOS website."
 print "The Linux team for Linux backbone."
 print "Written in FREEBasic."
-print "All Linux and FREEBasic dependancies are NOT written by me."
+print "All Linux and FREEBasic dependencies are NOT written by me."
 goto interpreter
