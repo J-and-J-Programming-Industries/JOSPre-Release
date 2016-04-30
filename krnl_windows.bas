@@ -121,5 +121,5 @@ credits:
 Print "Joshua Herron for console creation and compiling."
 print "Sam Kahn for help with GitHub repos and JOS website."
 print "Written in FREEBasic."
-print "All Windows and FREEBasic dependancies are NOT written by me."
+print "All Windows and FREEBasic dependencies are NOT written by me."
 goto interpreter
