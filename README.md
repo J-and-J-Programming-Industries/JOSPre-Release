@@ -12,4 +12,6 @@ Updates:
 
 1.2 Added new Kernel commands
 
+1.3 Added file managment command, fixed running and exiting.
+
 JOS is an operating system that is being written in FreeBASIC that is designed to be fast and efficient.
