@@ -118,7 +118,8 @@ print CurDir
 goto interpreter
 
 credits:
-Print "Joshua Herron for console, compiling, packaging, and all of the rest of the project that was made by me."
+Print "Joshua Herron for console, compiling, and packaging."
+print "Sam Kahn for help with GitHub repos and JOS website."
 print "The Linux team for Linux backbone."
 print "Written in FREEBasic."
 print "All Linux and FREEBasic dependancies are NOT written by me."
