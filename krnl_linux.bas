@@ -81,7 +81,7 @@ goto interpreter
 
 crash:
 cls
-print "[WARN]: chainution has failed and the Kernel has crashed."
+print "[WARN]: Execution has failed and the Kernel has crashed."
 print "[WARN]: Interpreter will now halt."
 print "[INFO]: Kernel halted"
 goto crash2
