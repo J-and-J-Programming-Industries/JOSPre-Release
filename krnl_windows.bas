@@ -90,7 +90,7 @@ crash2:
 goto crash2
 
 edit:
-chain("notepad")
+chain("C:\Windows\notepad.exe")
 goto interpreter
 
 cwd:
