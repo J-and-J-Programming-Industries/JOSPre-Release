@@ -1,0 +1,3 @@
+language: FreeBASIC
+FreeBASIC:
+script: fbc kernel_linux.bas
