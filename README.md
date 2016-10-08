@@ -1,4 +1,5 @@
 # JOSPre-Release
+[![Build Status](https://travis-ci.org/J-and-J-Programming-Industries/JOSPre-Release.svg?branch=master)](https://travis-ci.org/J-and-J-Programming-Industries/JOSPre-Release)
 
 Development status: In development
 
